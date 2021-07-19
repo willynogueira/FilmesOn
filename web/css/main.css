@@ -17,6 +17,10 @@ header{
         rgba(0,0,0,0.69)0%,
         rgba(0,0,0,0)100%
     );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 header img{
     width: 200px;
@@ -44,3 +48,34 @@ header img{
 .menu_list li a{
     color: #fff;
 } 
+
+#hero{
+    height: 700px;
+    background-image: url(/web/assets/15560338625cbf314652022_1556033862_3x2_md.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+#hero img{
+    
+    
+    max-width:300px;
+    width: auto;
+    top: 10px;
+    margin-top: 25%;
+}
+
+
+
+
+
+#hero_infos h1{
+    margin-bottom: 10px;
+}
+
+.btn-outline-dark{
+    background-color: rgba(138, 135, 135, 0.7);
+}
