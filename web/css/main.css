@@ -27,3 +27,20 @@ header img{
     padding: 30px;
     border-radius: 10px;
 }
+
+
+.menu_list{
+    list-style: nome;
+    padding-left: 5%;
+    padding-top:  100px;
+}
+
+.menu_list li{
+    display: inline-block;
+    margin-left: 15px;
+
+}
+
+.menu_list li a{
+    color: #fff;
+} 
